@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url('/assets/img/bg-mode.jpg');
+    background-size: 110% 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 55%;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15em;
+}
+
+.enjoy {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 28px;
+    word-spacing: 3px;
+    text-align: center;
+
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    overflow: hidden;
+}
+
+.icons {
+    width: 100%;
+    padding: 0px 40px;
+    transition: ease 1s;
+    
+}
+
+.icons:hover {
+    transform: scale(1.1);
+    
+}
+
+.text1 {
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 35px;
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #15c440;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    width: 90%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: #1560289b 0.5px 2px 2px 2px;
+    transition: .4s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
