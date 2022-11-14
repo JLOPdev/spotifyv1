@@ -13,7 +13,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
      ),  
-     url('/assets/img/bg-main.jpg');
+     url('./assets/img/bg-main.jpg');
     background-size: 110% 100vh;
     background-repeat: no-repeat;
     width: 100%;
