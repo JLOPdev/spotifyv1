@@ -12,7 +12,7 @@ body {
     background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
-        url('/assets/img/bg-mode.jpg');
+        url('./assets/img/bg-mode.jpg');
     background-size: 110% 100vh;
     background-repeat: no-repeat;
     width: 100%;
